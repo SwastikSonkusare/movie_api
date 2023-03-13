@@ -64,15 +64,6 @@ const Movie = () => {
             </button>
             <AddFavourites handleClick={addFavourites} movie={movie} />
           </div>
-          {/* <div className="container">
-            {!isLoading && (
-              <MovieList
-                removeMovie={removeMovie}
-                movies={favourites}
-                removeFavourites={removeFavourites}
-              />
-            )}
-          </div> */}
           <div className="search">
             <h1>
               <a href="/favourites">Go to favourites</a>
