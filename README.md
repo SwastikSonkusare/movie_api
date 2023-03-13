@@ -18,5 +18,3 @@ It is build using html, css, javascript, react, redux.
 ```bash
     npm i && npm start
 ```
-
-To make sure it works in your Chrome. Go to Chrome setting -->site setting -->Insecure content --> click on "Allowed to show insecure content" then add this domain name - "https://movie-api-web.netlify.app/"
