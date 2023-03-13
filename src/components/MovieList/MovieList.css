@@ -1,0 +1,41 @@
+.movie {
+    max-width: 26rem;
+    margin: 1rem;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5.3px 10.6px 10.6px hsla(86, 89%, 50%, 0.34);
+
+}
+
+.movie:hover {
+    transform: translateY(-20px);
+}
+.movie:hover .movie__info {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie__info {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    justify-content: space-around;
+    color: #FFEA20;
+    font-size: 1.5rem;
+    transform: translateY(20px);
+    padding: 1rem;
+
+    transition: 0.5s;
+	opacity: 0;
+}
+
+.movie__info div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}

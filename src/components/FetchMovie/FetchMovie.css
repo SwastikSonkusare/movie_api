@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2rm;
+    margin: auto;
+}
+
+
+/* RESPONSIVE QUERIES */
+
+@media only screen and (max-width: 42em) {
+    .container {
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        grid-gap: 2rm;
+        margin: auto;
+    }
+    
+}

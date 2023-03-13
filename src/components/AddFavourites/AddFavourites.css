@@ -1,0 +1,10 @@
+.favourites {
+    display: flex;
+    grid-gap: 1rem;
+    justify-content: center;
+    width: 300px;
+    align-items: center;
+    color: #FFEA20;
+    font-size: 1.4rem;
+    cursor: pointer;
+}

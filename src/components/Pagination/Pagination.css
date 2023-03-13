@@ -1,0 +1,21 @@
+nav {
+    width: 500px;
+    margin: 2rem auto;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFEA20;
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
